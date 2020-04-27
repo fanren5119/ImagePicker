@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02ECCA0C245538630012864E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECCA0B245538630012864E /* AppDelegate.swift */; };
+		02ECCA10245538630012864E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECCA0F245538630012864E /* ViewController.swift */; };
+		02ECCA13245538630012864E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02ECCA11245538630012864E /* Main.storyboard */; };
+		02ECCA15245538660012864E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02ECCA14245538660012864E /* Assets.xcassets */; };
+		02ECCA18245538660012864E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02ECCA16245538660012864E /* LaunchScreen.storyboard */; };
+		02ECCA20245556340012864E /* WIIPhotoPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECCA1F245556340012864E /* WIIPhotoPickerController.swift */; };
+		02ECCA22245556820012864E /* WIIPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECCA21245556820012864E /* WIIPhotoViewController.swift */; };
+		02ECCA2824555D3B0012864E /* WIIPhotoCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECCA2724555D3B0012864E /* WIIPhotoCollectionViewModel.swift */; };
+		02ECCA2A245562A10012864E /* WIIPhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECCA29245562A10012864E /* WIIPhotoCollectionCell.swift */; };
+		02ECCA2C245565350012864E /* WIIImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECCA2B245565340012864E /* WIIImageManager.swift */; };
+		02ECCA2E245573900012864E /* WIIPhoneSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECCA2D2455738F0012864E /* WIIPhoneSelectView.swift */; };
+		02ECCA3024557BA20012864E /* WIISelectImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECCA2F24557BA20012864E /* WIISelectImageManager.swift */; };
+		2019E23685135CE79F476426 /* Pods_WIIPhotoPickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5281BBE4707501EC392258AE /* Pods_WIIPhotoPickerController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02ECCA08245538630012864E /* WIIPhotoPickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WIIPhotoPickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02ECCA0B245538630012864E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02ECCA0F245538630012864E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02ECCA12245538630012864E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02ECCA14245538660012864E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02ECCA17245538660012864E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02ECCA19245538660012864E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02ECCA1F245556340012864E /* WIIPhotoPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIIPhotoPickerController.swift; sourceTree = "<group>"; };
+		02ECCA21245556820012864E /* WIIPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIIPhotoViewController.swift; sourceTree = "<group>"; };
+		02ECCA2724555D3B0012864E /* WIIPhotoCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIIPhotoCollectionViewModel.swift; sourceTree = "<group>"; };
+		02ECCA29245562A10012864E /* WIIPhotoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIIPhotoCollectionCell.swift; sourceTree = "<group>"; };
+		02ECCA2B245565340012864E /* WIIImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIIImageManager.swift; sourceTree = "<group>"; };
+		02ECCA2D2455738F0012864E /* WIIPhoneSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIIPhoneSelectView.swift; sourceTree = "<group>"; };
+		02ECCA2F24557BA20012864E /* WIISelectImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIISelectImageManager.swift; sourceTree = "<group>"; };
+		404EE5B6139736D0ED32BE87 /* Pods-WIIPhotoPickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WIIPhotoPickerController.release.xcconfig"; path = "Target Support Files/Pods-WIIPhotoPickerController/Pods-WIIPhotoPickerController.release.xcconfig"; sourceTree = "<group>"; };
+		5281BBE4707501EC392258AE /* Pods_WIIPhotoPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WIIPhotoPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8067E0EA8EFD3DD3CB8B0808 /* Pods-WIIPhotoPickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WIIPhotoPickerController.debug.xcconfig"; path = "Target Support Files/Pods-WIIPhotoPickerController/Pods-WIIPhotoPickerController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02ECCA05245538630012864E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2019E23685135CE79F476426 /* Pods_WIIPhotoPickerController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02ECC9FF245538630012864E = {
+			isa = PBXGroup;
+			children = (
+				02ECCA0A245538630012864E /* WIIPhotoPickerController */,
+				02ECCA09245538630012864E /* Products */,
+				D0993D7317E6F6A9588456E7 /* Pods */,
+				E0D3D5EAEF0BC1A9EC747237 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02ECCA09245538630012864E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02ECCA08245538630012864E /* WIIPhotoPickerController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02ECCA0A245538630012864E /* WIIPhotoPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				02ECCA0B245538630012864E /* AppDelegate.swift */,
+				02ECCA0F245538630012864E /* ViewController.swift */,
+				02ECCA1F245556340012864E /* WIIPhotoPickerController.swift */,
+				02ECCA21245556820012864E /* WIIPhotoViewController.swift */,
+				02ECCA2724555D3B0012864E /* WIIPhotoCollectionViewModel.swift */,
+				02ECCA29245562A10012864E /* WIIPhotoCollectionCell.swift */,
+				02ECCA2B245565340012864E /* WIIImageManager.swift */,
+				02ECCA2F24557BA20012864E /* WIISelectImageManager.swift */,
+				02ECCA2D2455738F0012864E /* WIIPhoneSelectView.swift */,
+				02ECCA11245538630012864E /* Main.storyboard */,
+				02ECCA14245538660012864E /* Assets.xcassets */,
+				02ECCA16245538660012864E /* LaunchScreen.storyboard */,
+				02ECCA19245538660012864E /* Info.plist */,
+			);
+			path = WIIPhotoPickerController;
+			sourceTree = "<group>";
+		};
+		D0993D7317E6F6A9588456E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8067E0EA8EFD3DD3CB8B0808 /* Pods-WIIPhotoPickerController.debug.xcconfig */,
+				404EE5B6139736D0ED32BE87 /* Pods-WIIPhotoPickerController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0D3D5EAEF0BC1A9EC747237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5281BBE4707501EC392258AE /* Pods_WIIPhotoPickerController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02ECCA07245538630012864E /* WIIPhotoPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02ECCA1C245538660012864E /* Build configuration list for PBXNativeTarget "WIIPhotoPickerController" */;
+			buildPhases = (
+				8FACF92AA0006B8A2DA68061 /* [CP] Check Pods Manifest.lock */,
+				02ECCA04245538630012864E /* Sources */,
+				02ECCA05245538630012864E /* Frameworks */,
+				02ECCA06245538630012864E /* Resources */,
+				AB35CA56219CC30D3004C59B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WIIPhotoPickerController;
+			productName = WIIPhotoPickerController;
+			productReference = 02ECCA08245538630012864E /* WIIPhotoPickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02ECCA00245538630012864E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = wiseinfoiotDev;
+				TargetAttributes = {
+					02ECCA07245538630012864E = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 02ECCA03245538630012864E /* Build configuration list for PBXProject "WIIPhotoPickerController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02ECC9FF245538630012864E;
+			productRefGroup = 02ECCA09245538630012864E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02ECCA07245538630012864E /* WIIPhotoPickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02ECCA06245538630012864E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02ECCA18245538660012864E /* LaunchScreen.storyboard in Resources */,
+				02ECCA15245538660012864E /* Assets.xcassets in Resources */,
+				02ECCA13245538630012864E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FACF92AA0006B8A2DA68061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WIIPhotoPickerController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB35CA56219CC30D3004C59B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WIIPhotoPickerController/Pods-WIIPhotoPickerController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WIIPhotoPickerController/Pods-WIIPhotoPickerController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WIIPhotoPickerController/Pods-WIIPhotoPickerController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02ECCA04245538630012864E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02ECCA3024557BA20012864E /* WIISelectImageManager.swift in Sources */,
+				02ECCA10245538630012864E /* ViewController.swift in Sources */,
+				02ECCA2E245573900012864E /* WIIPhoneSelectView.swift in Sources */,
+				02ECCA0C245538630012864E /* AppDelegate.swift in Sources */,
+				02ECCA20245556340012864E /* WIIPhotoPickerController.swift in Sources */,
+				02ECCA22245556820012864E /* WIIPhotoViewController.swift in Sources */,
+				02ECCA2A245562A10012864E /* WIIPhotoCollectionCell.swift in Sources */,
+				02ECCA2824555D3B0012864E /* WIIPhotoCollectionViewModel.swift in Sources */,
+				02ECCA2C245565350012864E /* WIIImageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02ECCA11245538630012864E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02ECCA12245538630012864E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02ECCA16245538660012864E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02ECCA17245538660012864E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02ECCA1A245538660012864E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02ECCA1B245538660012864E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02ECCA1D245538660012864E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8067E0EA8EFD3DD3CB8B0808 /* Pods-WIIPhotoPickerController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X4A43BNS86;
+				INFOPLIST_FILE = WIIPhotoPickerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseinfoiotDev.WIIPhotoPickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.wiseinfoiotDev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02ECCA1E245538660012864E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404EE5B6139736D0ED32BE87 /* Pods-WIIPhotoPickerController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X4A43BNS86;
+				INFOPLIST_FILE = WIIPhotoPickerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseinfoiotDev.WIIPhotoPickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.wiseinfoiotDev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02ECCA03245538630012864E /* Build configuration list for PBXProject "WIIPhotoPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02ECCA1A245538660012864E /* Debug */,
+				02ECCA1B245538660012864E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02ECCA1C245538660012864E /* Build configuration list for PBXNativeTarget "WIIPhotoPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02ECCA1D245538660012864E /* Debug */,
+				02ECCA1E245538660012864E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02ECCA00245538630012864E /* Project object */;
+}

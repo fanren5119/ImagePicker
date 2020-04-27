@@ -1,0 +1,48 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Pods-WIIPhotoPickerController:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: ee3d8b7e356c61010fc9c0ebe64ec011
+      Release: ee3d8b7e356c61010fc9c0ebe64ec011
+  RxCocoa:
+    BUILD_SETTINGS_CHECKSUM:
+      RxCocoa:
+        :debug: a79cdea2fe4450fd3c5ef8f1de238597
+        :release: a79cdea2fe4450fd3c5ef8f1de238597
+    CHECKSUM: 32065309a38d29b5b0db858819b5bf9ef038b601
+    PROJECT_NAME: RxCocoa
+    SPECS:
+      - RxCocoa (5.1.1)
+  RxRelay:
+    BUILD_SETTINGS_CHECKSUM:
+      RxRelay:
+        :debug: 8b991b1dd03a67fe2467cd7a6f3c2eb6
+        :release: 8b991b1dd03a67fe2467cd7a6f3c2eb6
+    CHECKSUM: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+    PROJECT_NAME: RxRelay
+    SPECS:
+      - RxRelay (5.1.1)
+  RxSwift:
+    BUILD_SETTINGS_CHECKSUM:
+      RxSwift:
+        :debug: 0cea28b299040d952e301f5523edc6c3
+        :release: 0cea28b299040d952e301f5523edc6c3
+    CHECKSUM: 81470a2074fa8780320ea5fe4102807cb7118178
+    PROJECT_NAME: RxSwift
+    SPECS:
+      - RxSwift (5.1.1)
+  SnapKit:
+    BUILD_SETTINGS_CHECKSUM:
+      SnapKit:
+        :debug: e17ffba0c0eec7864b36e41daf07dae4
+        :release: e17ffba0c0eec7864b36e41daf07dae4
+    CHECKSUM: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+    PROJECT_NAME: SnapKit
+    SPECS:
+      - SnapKit (5.0.1)
+OBJECT_VERSION: 51
+PLUGINS:
+  cocoapods-stats:
+    {}
